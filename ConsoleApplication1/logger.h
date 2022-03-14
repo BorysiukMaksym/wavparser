@@ -107,6 +107,6 @@
 #define LOG_HEX_DUMP_ERROR(p_data, len)     LOG_HEX_DUMP_INTERNAL_ERROR(p_data, len)
 
 
-void print_buf_hex(uint8_t *buf, uint32_t datalen);
+void print_buf_hex(uint16_t *buf, uint32_t datalen);
 
 #endif /* LOGGER_H_ */
